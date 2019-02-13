@@ -1,0 +1,12 @@
+3 slides total
+
+	1. Big Picture
+		What is the cool thing you are doing
+
+	2. Where are you now?
+		What do you understand about the thing you are going to build, what things do you need?
+
+	3. The Big D(etail)
+		What will you accomplish?
+
+ 

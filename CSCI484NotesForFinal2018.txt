@@ -1,0 +1,37 @@
+Final will be at 8:00am Wed Dec 12th (an hour earlier than class)
+50-60 Multiple Choice
+Previous tests are good study guide
+All content during the semester is fair game
+See Notes for Test 1 and Test 2 in D2L for earlier content
+New Concepts
+Top layers of OSI network model
+    7 Application:  What the user sees.
+    6 Presentation: What the code running on client machine sees.
+    5 Session: How the client server maintain a connection
+    4 Transport: TCP/UDP Data actually moves from on to the other
+    3 Network: How devices know their addresses and destination.
+    2 Data: Link How a collection of 1/0s get from place to place.
+    1 Physical:  How 1/0s get from place to place.
+Web Server
+    The program that serves the pages and content of a web application
+Web Application
+    The program that a user sees via a web browser
+You should be able to Multiple Choice questions about the following questions
+    What is Apache?
+    What is nginx?
+    What is IIS?
+    What is Node/Express?
+    What is php?
+    What is mysql?
+    What is ssh?
+    What is mongodb?
+    What is slow lorus?
+    What is a compute engine on Google Cloud Platform?
+    What is a compute engine on Amazon Web Services?
+    What is the difference between http and https?
+    What is the difference between telnet and ssf?
+    What is a virtual private network (VPN)?
+    Does a increase your network security?
+    What does https everywhere browser plugin do?
+    What does privacy badger browser plugin do?
+    

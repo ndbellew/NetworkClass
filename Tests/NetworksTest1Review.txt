@@ -1,0 +1,75 @@
+20 multiple choice/short answer
+
+Full class time will be used for the Test
+
+  OSI Network Model
+    Physical Layer
+      How do 1s and 0s get around?
+    Data Link Layer
+      How do you check quality of transmitted
+  Physical
+    A single transition from 1 to 0 or 0 to 1 has infinite frequencies to be exactly encoded/recorded
+      A square wave is the sum of the infinite odd harmonics
+    Synchronization Bits to make electronics
+    Perform Correctly
+    AM and FM can be used with
+      light
+      radio
+      sound
+    AM
+      Automatic Gain Control
+      Amplitude Modulation
+    FM
+      Frequency Modulation
+      Change the spacing of Pulses
+    Framing - error checking
+      Start/Stop bits for RS232
+      56 10101010x7 of Ethernet
+      Stop bits
+      Interpacket Gap
+  Data Link Layer
+    Parity
+      1 bit parity that is part of RS232
+      2d Parity for fixing 1 bit errors
+    Checksum
+    CRC
+  Modification to increase performance
+    GCR code
+    RLL encoding
+      Limited the number of 1s or 0s in a row.
+  Concepts go across more than networks
+    Disk Drives
+    Compact Disks
+    Compressions
+  RS-232
+    TTL-RS-232
+      RS-232 as a 5V standard signals
+    6-8 bit transmittion
+    Baud has to be agreed upon.
+    Asynchronous
+      no explicit clock signal.
+    Stop and Start Bit
+    parity
+    8N1 -  8 data bits no parity 1 stop bit.
+    Transmit slower to using cruddier signals/wiring
+    Still around
+      Virtualised over USB
+      Bluetooth
+
+SPI
+  Asynchronous
+  MOSI, Miso, CLK, !CS
+  no address. you use Chip/Slave Select
+  SD Cards
+  Memory Devices
+  Limited by slowest device in link ( and of course wiring)
+I2C
+  Synchronous
+  No parity
+  SDA, SCL, Data and Clock
+  Is address
+  Sensor
+    Mouse Pad, Accelerometer
+    Wii-Nunchuck
+Ardiuno, R-Pi all have both SPI and I2C interfaces
+PC does but not exposed to the outside Wurld

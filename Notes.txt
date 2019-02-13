@@ -1,0 +1,13 @@
+Ubuntu Server
+	- Server Operating system made by Canonical
+	- works on most hardware or virtualization platforms
+	- more prevelant than Amazon Cloud Services
+	- used for many things
+		- Websites
+		- FTP
+		- Email Server
+		- File and print Server
+		- Dev platform
+		- container deployment
+		- Cloud Services
+		- Database Server

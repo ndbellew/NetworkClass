@@ -1,0 +1,4 @@
+#!/bin/sh
+echo "Hello World!"
+echo "This will run as soon as possible in the boot sequence"
+

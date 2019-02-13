@@ -1,0 +1,4 @@
+#these urls will be read and pulled if they were part of user-data
+#comments are alloud the format is one url per line
+http//:www.ubuntu.com/robots.txt
+http//:www.w3schools.com/html/lastpage.htm

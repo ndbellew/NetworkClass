@@ -1,0 +1,10 @@
+MitM between two victims
+step 1. add the MAC addresses of the victims on the attackers machine
+step 2. enable ip forwarding capability in the kernel so the victims do get their packets and are not suspicious of any spoofing activity
+	- Permanent $/etc/init.d/procps/sh restart
+	- check - 0 means disabled - sysctl net.ipv4.ip_forward
+	- on the fly enability - sysctl -w net.ipv4.ip_forward=1
+step 3. run an ARP Spoof
+	- sending falsified ARP messages over the network. 
+		- linking of an attacker's MAC address with the IP address of a legitimate computer or server on the network. 
+

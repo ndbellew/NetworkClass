@@ -1,0 +1,135 @@
+25 multiple choice
+first test is good study guide
+#Test 1 Review
+1. A simple transition from zero to one includes how many frequencies?
+  - An infinite number
+2. I2C is what kind of communication?
+  - Synchronous
+3. A protocol transmits 1 byte at a time through a serial connection at 9600 bits
+ per second with 1 start, 1 stop, and no parity bit. What is the minimum time it
+ will take to transmit 72000 bytes or octets?
+  - 75s - remember you are doing 9600 BITS not bytes so it is going to be really slow.
+4. What is the lowest layer of the OSI 7-layer network diagram?
+  - Physical
+5. RS232 or 'Serial' port use a common ground and...
+  - a transmit and a recieve wire.
+6. what is the odd-parity of 0110?
+  - 1
+7. Bits or bytes of information to verify that both sides of a communication have the same data at the end of the reception are named?
+  - CRC or Checksum
+8. Bits or Bytes of data to synchronize the timing on both sides of a communication channel are usually named?
+  - Framing
+9. What is the second lowest layer of the OSI 7-layer Network?
+  - Data Link
+10. SPI uses a common ground and
+  - A master in slave out, a master out slave in, a clock and a slave select.
+11. RS-232 (Serial Ports) are
+  - Still used even virtualized today
+12. CRC stands for
+  - cyclic redundancy check
+13. If data is being transmitted at 9600 baud what is probably true about the wiring and hardware on both sides of the communication?
+  - The wire and hardware can be poor quality.
+14. A transmission approach that does not have a separate clock line is said to be?
+  - asynchronous
+15. FM communication
+  - Changes frequency of the transmitted signal
+16. SPI (Serial Peripheral interface) bus is an example of which type of communication?
+  - Synchronous
+17. AM communication
+  - Changes volume of the transmitted signal
+18. A simple on/off signal on a wire that a fixed frequency contains
+  - infinite harmonics
+19. I2C uses a common ground
+  - a data and a clock wire
+20. High speed data transmission
+  - better quality wire/fiber optics and more precisely timed equipment
+21. A transmission approach that does have a separate clock line is said to be
+  - synchronous
+22. Preamble bits or bytes are used to
+  - synchronize timing and stabilize the AGC
+23. SMTP stands for
+  - A Simple Mail Transfer Protocol
+24. Bits or bytes of nothing after data at the end of transmission are named?
+  - Stop or Gap
+25. To convert bps to Bps a quick rule is to
+  - divide by 10 - you have to cover the start and stop bit which makes 10 total bits.
+26. BAUD rate and bps would be different if
+  - at any moment more than a single 1 or 0 is transmitted.
+  ________________________________________________________________________
+
+  OSI network model
+  Ethernet
+    Port
+      0-1023 root user ports
+        smtp
+          - internet standard for electronic email
+          Uses TCP port 25
+            often submit the outgoing emails to a mail server on port 587 or 465
+        http
+          Typically port 80
+          occasionally 8080
+        https
+          uses port 443
+          encrypted version of http
+        ssh
+          uses TCP port 22
+        telnet
+          uses tcp port 23
+      1024-65535 free for all
+    UDP vs TCP
+      UDP has not Synchronization or acknowledgment
+        - User Datagram Protocol
+        sends data randomly so may come in different order but is really fast.
+        Datagram
+      TCP packets arrive in order and are resent if needed
+        - Transmission Control Protocol
+        provides reliable, ordered, and erro-checked delivery in a stream of octets
+          - Checksum is used just like in udp
+        stream
+    star network configuration
+      - when all computers or things that connect to the internet where every host is connected to a central hub.
+      - the one central hub acts s a conduit to transmit messages.
+    Ping
+      - uses ICMP specifically ICMP echo request and ICMP echo reply packets there i sno port associated with
+      ICMP. Ports are associated with two IP transport layer protocols, TCP and UDP. ICMP packets are identified
+      by the 'protocol' field in the IP datagram
+      Port?
+    IPv4
+      when it was born 4 octets for address
+        - 32-bit integer value that is dot-decimal notation in 4x8 byte pattern
+      192.168.1.23
+    IPv6
+      Where we want to go but movement is slow
+      more secure
+    Coding
+      You can choose any programming language you want
+      Bind
+        cant be bound again
+        executable taking a port number's ownership
+      Listen
+        When server is waiting on stream connections
+      Connect
+        client making a stream connection
+      Services
+        DNS-Domain Name Service
+          Human names for a server to the number
+        DHCP Dynamic Host configuration Protocol
+          assigns ip addresses for certain machines on the network
+          Not used for Static IP addresses
+          Hosts
+        FW-Firewall
+          Blocks incoming traffic that does not have an outbound request
+        Switch
+          Internet Protocol Packet Routing
+        NAT Network Address Translation
+          allows local addresses to be different than wide area network (WAN, world) addresses
+        Option ? probably not on test
+          SMB SaMBa server Message Block
+            Network attached storage
+          SSH Secure shell
+            Secure version of telnet
+            Command console to another machine
+        "Client"
+          As many as you want!
+        "Server"
+          One per port per machine
