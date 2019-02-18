@@ -14,7 +14,7 @@ Sound
 
 Light
 -----
-###Photons
+### Photons
 >some photons created a 1
 >no photons created a 0
 >we could polorize the light to change the output by aligning the glass in different ways to allow more or less light in
@@ -24,7 +24,7 @@ Radio Spectrum
 >Part of electromagnetic spectrum with frequencies from 3Hz to 3000 GHz
 >It is a shared resource so it has been split up into different wave forms to allow the maximum amount of people to use each individual station
 
-###Radio Waves
+### Radio Waves
 
 >*  AM and FM
    Amplitude and Frequency
@@ -91,12 +91,12 @@ serial port Parameters
 * STOP=s
 * RETRY=r
 
-###Radio connection
+### Radio connection
 > there are some locations you can find radio chips to communicate with through pi
 * RS-232
 defines the signals connecting between a Data Terminal Equipment (DTE) such as a computer terminal
 
-###Network signal
+### Network signal
 Magnetic disk
 - if there is a long series of 0's it will start to amplify it so that there is no long run of 0's and 1's
 we can transmit a 1->0
@@ -118,7 +118,7 @@ General picture of having more than one bit
 this is considered the packet protocol - OSI Model
 SLIP - Serial layer internet protocol
   - the original Dial Up
-###RFC for SMTP
+### RFC for SMTP
 SMTP - Simple Mail Transfer Protocol
  - an internet standard for electronic mail (email)
  - this describes the process of connecting on TCP port  through a mail submission agent (MSA). The MSA delivers the mail to its mail transfer agent (MTA). the MTA uses the Domain name system (DNS) to look up th email exchanger record (MX record) for recipient's domain. the MX record holds the name of the target host. the MTA hops around the server until it finds the target and then the server either accepts it or reports failure to locate. once the final hop accepts the incoming message it hands it to the mail delivery agent (MDA) and then it delivers to the local mail server.
@@ -128,7 +128,7 @@ SMTP - Simple Mail Transfer Protocol
 RFC - Request for Comments
 SMTP Port Number
   - 5321 is the current port used to communicate with an SMTP. a way to communicate with the server is to use the command EHLO which superseeds the earlier command HELO.
-###Sending Bytes
+### Sending Bytes
  - Start - BITS - Parity( None, Odd Parity, Even Parity) - Stop
  2 Dimentional Parity check
 NMEA
@@ -137,20 +137,20 @@ NMEA
     2. checksum + bytes - keeps 1 byte of the sum
     3. crc-64 -
   - NMEA uses checksum, meaning each process has a certain sum of data it should be and if the checksum is false it is read in as an error.
-###ethernet
-####first 56 BITS
+### ethernet
+#### first 56 BITS
     What are they for?
-###Interfaces
+### Interfaces
 Spi
   - Serial Peripheral Interface
     - a synchronous serial communication - does it have a clock
-####first 56 BITSof ethernet Frame
+#### first 56 BITSof ethernet Frame
   - Preamble and Start fram delimiter
     - The Preamble consists of a 56-bit(seven byte) pattern of alternating 1 and 0 bits.
     - This allows devices on the networks to easily synchornize their reciever clocks. providing bit-level synchonization
     - it is followed by the SFD to provide byt-level synchonization and to mark a new incoming Frame.
     - the (uncoded) on-the-wire bit pattern for the preamble together with the SFD portion of the frame is 10101010 10101010 10101010 10101010 10101010 10101010 10101010 10101011;
-###Interfaces
+### Interfaces
 Spi
   - Serial Peripheral Interfacesignal?
     - there are 2 devices Master and Slave and you are trying to talk as fast as possible between the 2 devices. a four wire system. most important is Ground and synchronous clock.
