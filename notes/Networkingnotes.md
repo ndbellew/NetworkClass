@@ -75,7 +75,7 @@ Starts Microsoft Diagnostics, a tool used to display info about your computer
 Used to display or set a specific path available to executable files
 * rmdir
 used to remove directory
-###Microsoft Dos Command Mode
+### Microsoft Dos Command Mode
 Example: com1:9600,N,8,1,P
 - Set communications port COM1 to 9600 BAud with no parity, 8 databits, 1 stop bit, and with Xon/XOFF.
 Example: Mode CON: COLS=80 LINES=50
