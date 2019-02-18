@@ -1,4 +1,4 @@
-#Test 1 Review
+# Test 1 Review
 1. A simple transition from zero to one includes how many frequencies?
   - An infinite number
 2. I2C is what kind of communication?
@@ -52,9 +52,9 @@
 26. BAUD rate and bps would be different if
   - at any moment more than a single 1 or 0 is transmitted.
 
-#Class Time
+# Class Time
 yeet
-##OSI LAYERS
+## OSI LAYERS
 1. Physical
 2. Data Link
 3. Network
@@ -63,22 +63,22 @@ yeet
 6. Presentation
 7. Application
 
-###IP
+### IP
 - an ip is made up of 4 octets of bits. 127.0.0.1.
   They used to give an area a certain set of octets and left the remaining for the area to split up.
     People were assigned values on essentially a large binary tree that organized all the internet addresses
   There are not enough addresses to give everyone a unique address. it gives out the ip's based on the router.
   - Ping
     just sends some packet to someone else just to get a response and then time the response
-###Sending Packets
+### Sending Packets
   - packets are sent through a direction, there may be some routers that send it down 2 paths for optimal speeds. however they could arrive out of order and this would not be great. So if you do this make sure you have a protocol to arrange the packets in order.
 
 - SCSI - this is a network standard pinout for most network drives
-###DNS and DHCP
+### DNS and DHCP
   - DHCP - assigns an IP address for a LAN
     - some things like a tv or printer you give a specific(static) ip on that because it would rarely move from that area but things like laptops and phones you need more of a dynamic ip so you use the DHCP to quickly give you an ip
 
-###Internet Census 2012
+### Internet Census 2012
   1. Introduction
   - It started because of some time spent on Nmap and they discovered over 100,000 vulnerable devices.
   2. Proof of concept
@@ -116,7 +116,7 @@ yeet
       5. Traceroute
     6. Analysis
     7. Conclusion
-####Wiki
+#### Wiki
   1. Data Collection
     - The data was collected by infilitrating internet devices, especially routes that used a defualt or no password at all.
     - named after Carna the roman goddess for protection of inner organs and health
@@ -131,23 +131,23 @@ yeet
 - to do log base anything you do.
 	ln(number)/ln(base)
 
-###Increasing the rate of routing
+### Increasing the rate of routing
   Its an Algorithm
   - similar to Dijkstra's Algorithm
-####ModBus
+#### ModBus
 Modbus is a serial communications protocol originally published by Modicon (now Schneider Electric) in 1979 for use with its programmable logic controllers (PLCs). Modbus has become a de facto standard communication protocol and is now a commonly available means of connecting industrial electronic devices. The main reasons for the use of Modbus in the industrial environment are:
 
 -  developed with industrial applications in mind,
 -  openly published and royalty-free,
 -  easy to deploy and maintain,
 -  moves raw bits or words without placing many restrictions on vendors.
-####MODBUS TCP
+#### MODBUS TCP
   - PoE - Power over ethernet
     - you put power on ethernet so that you have data and power going
     -  so you plug an ethernet connection in and you can contact any kind of sensor or lathe
     - Essentially is Modbus but with a TCP interface using ethernet.
     - allows us to send raw data bits over the ethernet to contact another device that is also drawing power.
-###UDP
+### UDP
   - User datagram Protocol  
     - Software
   - Binding - when an executable claims a port to use when only that executable can use that port
@@ -155,7 +155,7 @@ Threading vs Process
   -  Thread and Process are two closely related terms in multi-threading. The main difference between the two terms is that the threads are a part of a process, i.e. a process may contain one or more threads, but a thread cannot contain a process.
 - Ports
   - 0-1023 ports were super user access ports.
-###Networking through coding
+### Networking through coding
   - UDP client in c
     - steps server
       1. Socket
@@ -165,7 +165,7 @@ Threading vs Process
       5. Accept
       6. Send/Recieve
 
-###Modem AT Commands
+### Modem AT Commands
   - AT was used to tell the Modem Attention!
     - you follow AT wiht a + and then the command you want to be done
       - ex. AT+RESET
