@@ -37,7 +37,7 @@ Radio Spectrum
   Fm has higher quality and then AM had longer range, AM was the bare bones where as FM could send as high of frequency as it wanted but in order to maintain the quality it could only go so far.
 >*  L+R
     Antenna submits two different 0 and 1 signals through different things
-###FSK
+### FSK
 Frequency-shift Keying
 >  a frequency modulation scheme in which digital info is     transmitted through a discrete frequency, the carrier signal varies according to the digital signal changes
 >>  old phone made specific tone dials we can replicate the sounds. with the right pitch you can send a call to any number even if the phone itself has no numbers.
@@ -50,7 +50,7 @@ Baud
 So we can take a wave - sine for example - and change the way that it moves (increasing frequency and decreasing amplitude).\nSo now we have a different amount in Hertz. the more we change this the more the wave appears to be a 1 to 0 transition. however this requires a high amount of bandwidth.
 > to defeat this instead of getting the entire thing you send little packets at a time. and if the frequency is abovd 44 kHz it just removes those so because the human ear cannot hear that
 
-###DOS command for Microsoft
+### DOS command for Microsoft
 >Dos Commands are the commands available in microsoft Dos that are used to interact with the operating system and other command line based software
 >unlike in windows, Dos commands are the primary way in which you use the OS
 > Windows OS does not have Dos commands. Instead the command are available from the command prompt and are called CMD Prompt commands
